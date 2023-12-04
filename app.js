@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 const corsOptions = {
-    origin: process.env.SITE_ORIGIN_URL || "http://horiyorrmi72.github.io",
+    origin: "http://horiyorrmi72.github.io",
   optionsSuccessStatus: 200,
 };
 
